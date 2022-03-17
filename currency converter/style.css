@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato&family=Lobster&family=Open+Sans:wght@300&family=Staatliches&family=Vollkorn:ital,wght@0,600;1,400&display=swap');
+
+body {
+    background-color: rgb(139, 184, 224);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.heading {
+    font-family: 'Cedarville', cursive;
+    margin: 40px auto 30px;
+}
+
+
+hr {
+    border-top: 1px solid black;
+    width: 50%;
+    margin-bottom: 55px;
+}
+
+
+.main {
+    width: 60vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+
+label {
+    font-size: 20px;
+}
+
+#finalAmount {
+    font-family: 'Lobster', cursive;
+    display: none;
+    margin: 50px auto;
+}
+
+#finalAmount h2 {
+    font-size: 50px;
+}
+
+
+/* media query */
+
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    hr {
+        width: 75%;
+    }
+    #finalAmount h2, .finalValue {
+        font-size: 40px;
+    }
+}
