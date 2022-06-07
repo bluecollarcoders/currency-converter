@@ -17,3 +17,4 @@ const jsonPromise = fetchProducts();
 jsonPromise.then((json) => console.log(json[0].name));
 
 fetchProducts();
+jsonPromise();
